@@ -1,0 +1,9 @@
+1) Place the Pictures that need to be edited in the 'need_edit' folder
+
+2) Just double click the "main.exe" file
+
+3) Get your results from the 'edited' folder
+
+4) Delete the photos that got edited from the 'need_edit' file, to keep your folders clean
+
+5) You can Delete the process.log file, it will keep reappearing with each run, but you can leave it as it is.
