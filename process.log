@@ -1,0 +1,76 @@
+2024-06-28 10:52:15,132 - DEBUG - Script directory: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits
+2024-06-28 10:52:15,132 - DEBUG - Input directory path: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\need_edit
+2024-06-28 10:52:15,133 - DEBUG - Output directory path: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\edited
+2024-06-28 10:52:15,135 - DEBUG - Created output directory: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\edited
+2024-06-28 10:52:15,135 - DEBUG - Processing image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\need_edit\blue and white hat june 24.jpg
+2024-06-28 10:52:15,211 - DEBUG - Converted image to RGBA
+2024-06-28 10:52:15,212 - DEBUG - Removing background using basic thresholding
+2024-06-28 10:52:15,445 - DEBUG - Removed background
+2024-06-28 10:52:15,547 - DEBUG - Resized image
+2024-06-28 10:52:15,620 - DEBUG - Saved edited image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\edited\blue and white hat june 24_edited.png
+2024-06-28 10:52:15,622 - INFO - Processed and saved: blue and white hat june 24.jpg
+2024-06-28 10:52:15,622 - DEBUG - Processing image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\need_edit\heather blue left chest logo june 24.jpg
+2024-06-28 10:52:15,655 - DEBUG - Converted image to RGBA
+2024-06-28 10:52:15,655 - DEBUG - Removing background using basic thresholding
+2024-06-28 10:52:15,935 - DEBUG - Removed background
+2024-06-28 10:52:16,041 - DEBUG - Resized image
+2024-06-28 10:52:16,176 - DEBUG - Saved edited image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\edited\heather blue left chest logo june 24_edited.png
+2024-06-28 10:52:16,179 - INFO - Processed and saved: heather blue left chest logo june 24.jpg
+2024-06-28 10:52:16,180 - DEBUG - Processing image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\need_edit\UA black hooded norse june 24.jpg
+2024-06-28 10:52:16,231 - DEBUG - Converted image to RGBA
+2024-06-28 10:52:16,231 - DEBUG - Removing background using basic thresholding
+2024-06-28 10:52:16,513 - DEBUG - Removed background
+2024-06-28 10:52:16,813 - DEBUG - Resized image
+2024-06-28 10:52:17,193 - DEBUG - Saved edited image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\edited\UA black hooded norse june 24_edited.png
+2024-06-28 10:52:17,197 - INFO - Processed and saved: UA black hooded norse june 24.jpg
+2024-06-28 10:52:17,197 - INFO - All images have been processed and saved to 'edited'
+2024-07-01 15:04:53,393 - DEBUG - Script directory: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits
+2024-07-01 15:04:53,394 - DEBUG - Input directory path: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\need_edit
+2024-07-01 15:04:53,394 - DEBUG - Output directory path: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\edited
+2024-07-01 15:04:53,394 - DEBUG - Processing image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\need_edit\blue and white hat june 24.jpg
+2024-07-01 15:04:53,448 - DEBUG - Converted image to RGBA
+2024-07-01 15:04:53,449 - DEBUG - Removing background using basic thresholding
+2024-07-01 15:04:53,628 - DEBUG - Removed background
+2024-07-01 15:04:53,717 - DEBUG - Resized image
+2024-07-01 15:04:53,792 - DEBUG - Saved edited image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\edited\blue and white hat june 24_edited.png
+2024-07-01 15:04:53,794 - INFO - Processed and saved: blue and white hat june 24.jpg
+2024-07-01 15:04:53,794 - DEBUG - Processing image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\need_edit\heather blue left chest logo june 24.jpg
+2024-07-01 15:04:53,822 - DEBUG - Converted image to RGBA
+2024-07-01 15:04:53,822 - DEBUG - Removing background using basic thresholding
+2024-07-01 15:04:54,004 - DEBUG - Removed background
+2024-07-01 15:04:54,100 - DEBUG - Resized image
+2024-07-01 15:04:54,205 - DEBUG - Saved edited image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\edited\heather blue left chest logo june 24_edited.png
+2024-07-01 15:04:54,207 - INFO - Processed and saved: heather blue left chest logo june 24.jpg
+2024-07-01 15:04:54,208 - DEBUG - Processing image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\need_edit\UA black hooded norse june 24.jpg
+2024-07-01 15:04:54,238 - DEBUG - Converted image to RGBA
+2024-07-01 15:04:54,238 - DEBUG - Removing background using basic thresholding
+2024-07-01 15:04:54,409 - DEBUG - Removed background
+2024-07-01 15:04:54,510 - DEBUG - Resized image
+2024-07-01 15:04:54,655 - DEBUG - Saved edited image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\edited\UA black hooded norse june 24_edited.png
+2024-07-01 15:04:54,658 - INFO - Processed and saved: UA black hooded norse june 24.jpg
+2024-07-01 15:04:54,658 - INFO - All images have been processed and saved to 'edited'
+2024-07-01 22:21:49,561 - DEBUG - Script directory: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits
+2024-07-01 22:21:49,561 - DEBUG - Input directory path: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\need_edit
+2024-07-01 22:21:49,561 - DEBUG - Output directory path: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\edited
+2024-07-01 22:21:49,562 - DEBUG - Processing image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\need_edit\blue and white hat june 24.jpg
+2024-07-01 22:21:49,936 - DEBUG - Converted image to RGBA
+2024-07-01 22:21:49,936 - DEBUG - Removing background using basic thresholding
+2024-07-01 22:21:50,578 - DEBUG - Removed background
+2024-07-01 22:21:50,899 - DEBUG - Resized image
+2024-07-01 22:21:51,134 - DEBUG - Saved edited image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\edited\blue and white hat june 24_edited.png
+2024-07-01 22:21:51,155 - INFO - Processed and saved: blue and white hat june 24.jpg
+2024-07-01 22:21:51,157 - DEBUG - Processing image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\need_edit\heather blue left chest logo june 24.jpg
+2024-07-01 22:21:51,251 - DEBUG - Converted image to RGBA
+2024-07-01 22:21:51,251 - DEBUG - Removing background using basic thresholding
+2024-07-01 22:21:51,868 - DEBUG - Removed background
+2024-07-01 22:21:52,176 - DEBUG - Resized image
+2024-07-01 22:21:52,520 - DEBUG - Saved edited image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\edited\heather blue left chest logo june 24_edited.png
+2024-07-01 22:21:52,525 - INFO - Processed and saved: heather blue left chest logo june 24.jpg
+2024-07-01 22:21:52,530 - DEBUG - Processing image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\need_edit\UA black hooded norse june 24.jpg
+2024-07-01 22:21:52,597 - DEBUG - Converted image to RGBA
+2024-07-01 22:21:52,597 - DEBUG - Removing background using basic thresholding
+2024-07-01 22:21:53,162 - DEBUG - Removed background
+2024-07-01 22:21:53,447 - DEBUG - Resized image
+2024-07-01 22:21:53,947 - DEBUG - Saved edited image: C:\Users\hussah01\Desktop\CS Projects\BookShop Edits\edited\UA black hooded norse june 24_edited.png
+2024-07-01 22:21:53,951 - INFO - Processed and saved: UA black hooded norse june 24.jpg
+2024-07-01 22:21:53,951 - INFO - All images have been processed and saved to 'edited'

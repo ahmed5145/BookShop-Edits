@@ -46,12 +46,8 @@ def process_image(input_path, output_path):
     img = remove_background_basic(img)
     logging.debug("Removed background")
 
-    # Crop the image to fit the item
-    img_cropped = img.crop(img.getbbox())
-    logging.debug("Cropped image")
-
     # Resize the image to 800x800 pixels using LANCZOS filter
-    img_resized = img_cropped.resize((800, 800), Image.Resampling.LANCZOS)
+    img_resized = img.resize((800, 800), Image.Resampling.LANCZOS)
     logging.debug("Resized image")
 
     # Save the edited image
@@ -61,10 +57,29 @@ def process_image(input_path, output_path):
 def remove_background_basic(img):
     logging.debug("Removing background using basic thresholding")
     np_img = np.array(img)
-    mask = (np_img[:, :, 3] > 128)  # Basic thresholding based on alpha channel
-    np_img[:, :, :3] = np_img[:, :, :3] * mask[:, :, np.newaxis]
-    img = Image.fromarray(np_img)
-    return img
+    
+    # Separate RGB channels and alpha channel
+    r, g, b, a = np_img[:, :, 0], np_img[:, :, 1], np_img[:, :, 2], np_img[:, :, 3]
+    
+    # Calculate luminance (brightness) of each pixel
+    luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b
+    
+    # Define a threshold for deciding what is background (adjust as needed)
+    threshold = 180
+    
+    # Create a mask where pixels below the threshold are considered background
+    mask = luminance < threshold
+    
+    # Invert the mask to keep object pixels
+    mask = ~mask
+    
+    # Set background pixels to transparent
+    np_img[mask, 3] = 0
+    
+    # Convert modified numpy array back to Image object
+    img_modified = Image.fromarray(np_img)
+    
+    return img_modified
 
 # Process all images in the input directory
 if os.path.exists(input_dir_path):
